@@ -13,7 +13,8 @@ public class Drawing {
         frame.setSize(300,300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-        JComponent component = new FlagComponent();
+//        JComponent component = new FlagComponent();
+        JComponent component = new ChartComponent();
         frame.add(component);
         
         frame.setVisible(true);
